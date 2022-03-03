@@ -40,17 +40,78 @@
                 <span>What toppings would you like?</span>
                 <br>
                 <!--Add your code below for the first checkbox-->
-                <label for="chicken">Chicken</label>
-                <input type="checkbox" name="topping" id="chicken" value="chicken">
+                <input type="checkbox" name="topping" id="pickles" value="pickles">
+                <label for="chicken">Pickles</label>
 
-                <label for="lettuce">Lettuce</label>
                 <!--Add your code below for the second checkbox-->
                 <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+                <label for="lettuce">Lettuce</label>
 
-                <label for="tomato">Tomato</label>
                 <!--Add your code below for the third checkbox-->
                 <input type="checkbox" name="topping" id="tomato" value="tomato">
+                <label for="tomato">Tomato</label>
 
+            </section>
+            <hr>
+
+            <section class="cheesy">
+                <span>Would you like to add cheese?</span>
+                <br>
+                <!--Add your first radio button below-->
+                <input type="radio" name="cheese" id="yes" value="yes">
+                <label for="yes">Yes</label>
+
+                <!--Add your second radio button below-->
+                <input type="radio" name="cheese" id="no" value="no">
+                <label for="no">No</label>
+            </section>
+            <hr>
+
+            <section class="allergies">
+                <span>Do you have any allergies?</span>
+                <br>
+                <input type="radio" name="allergies" id="yes" value="yes">
+                <label for="yes">Yes</label>
+
+                <input type="radio" name="allergies" id="no">
+                <label for="no">No</label>
+            </section>
+            <hr>
+
+            <!--Add your dropdown menu below-->
+            <section class="bun-type">
+                <label for="bun">What type of bun would you like?</label>
+                <select id="bun" name="bun ">
+                <option value="sesame">Sesame</option>
+                <option value="potato">Potato</option>
+                <option value="brioche">Brioche</option>
+              </select>
+            </section>
+            <hr>
+
+            <!--Add your datalist below-->
+            <section class="sauce-selection">
+                <label for="sauce">What type of sauce would you like?</label>
+                <input type="text" list="sauces " id="sauce" name="sauce">
+                <datalist id="sauces">
+                  <option value="ketchup">ketchup</option>
+                  <option value="mayo">mayo</option>
+                  <option value="bbq">bbq</option>
+                </datalist>
+            </section>
+            <hr>
+
+            <section class="extra-info">
+                <label for="extra">Anything else you want to add?</label>
+                <br>
+                <!--Add your code below-->
+                <textarea id="extra" name="extra" rows="3" cols="40">Give us the details of your allergies if applicable or you can use this area to tell us anything else!</textarea>
+            </section>
+            <hr>
+
+            <!--Add your code below-->
+            <section class="submission ">
+                <input type="submit" value="Send">
             </section>
 
         </form>

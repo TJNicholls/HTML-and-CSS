@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta name="viewport" content="width=device-width" initial-scale="1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <title>Every day Counts</title>
+</head>
+
+<body>
+
+    <header>
+        <section id="whitespace">
+            <a href="#logo">
+                <img height="45" width="175" src="C:\Users\TEZREEC\Documents\hi\Junior-Developer-Technical-Test\Assets\images\logo.png" alt="alternative text">
+            </a>
+        </section>
+
+
+        <nav class="navigation">
+
+            <a id="nav1" href=" https.home ">Home</a> <a id="nav2" href="https.about ">About</a> <a id="nav3" href="https.treatments ">Treatments</a> <a id="nav4" href="https.patient_stories ">Patient Stories</a> <a id="nav5" href=" #contact ">Contact</a>
+
+        </nav>
+
+    </header>
+
+    <section class="main ">
+
+        <img class="img1 " height="750 " width="1350 " src="C:\Users\TEZREEC\Documents\hi\Junior-Developer-Technical-Test\Assets\images\hcp_landing_page-2.png " alt="alternative text ">
+        <img class="img2 " src="C:\Users\TEZREEC\Documents\hi\Junior-Developer-Technical-Test\Assets\images\rectangle.png ">
+
+        <h1 class="title ">EVERY DAY <br> COUNTS</h1>
+
+    </section>
+
+
+    <img class="wave1 " height="355 " width="1500 " src="C:\Users\TEZREEC\Documents\hi\Junior-Developer-Technical-Test\Assets\images\vek_wave-4.png " alt="#alternative text ">
+    <img class="wave2 " height="1100 " width="1500 " src="C:\Users\TEZREEC\Documents\hi\Junior-Developer-Technical-Test\Assets\images\vek_wave3.png " alt="#alternative text ">
+
+    <p class="covid ">In December 2019, a novel virus causing flu-like symptoms <br>emerged in Wuhan, Hubei Province, China. Within three months, <br>the World Health Organization declared the spread of the
+        <br>coronavirus-19 (COVID-19) to be a global pandemic. 1Since then,<br>COVID-19 has drastically changed the world in which we live. 2 </p>
+
+    <div class="slider">
+        <div class="slides">
+            <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+
+            <div class="slide first">
+                <img src=" C:\Users\TEZREEC\Documents\hi\Junior-Developer-Technical-Test\Assets\images\carousel_support_hcp-scaled.jpg " alt="">
+            </div>
+            <div class="slide">
+                <img src=" C:\Users\TEZREEC\Documents\hi\Junior-Developer-Technical-Test\Assets\images\carousel_support_hcp-scaled.jpg " alt="">
+            </div>
+            <div class="slide">
+                <img src=" C:\Users\TEZREEC\Documents\hi\Junior-Developer-Technical-Test\Assets\images\carousel_support_hcp-scaled.jpg " alt="">
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+        </div>
+
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+
+
+
+    </div>
+
+    <div id="caption">
+
+        <h3 id="caption-title">On-demand webinars</h3>
+        <p id="caption-body">Find materials to help support you and your patients <br> with COVID-19 in our resources library</p>
+    </div>
+
+
+
+
+
+    <h2 id="header ">Explore VEKLURY’s mechanism of action</h2>
+
+    <section class="video ">
+        <video width="1100 " height="575 " controls src="#placeholder " allow="autoplay; picture-in-picture " allowfullscreen></video>
+
+    </section>
+
+
+
+    <footer>
+
+        <p>
+            <h4 id="header2">Footnotes & references</h4>
+
+            <span id="bold"> 1. </span>VEKLURY (RDV) Summary of Product Characteristics. Accessed February 2022.
+            <br>
+            <span id="bold2">2. </span>Beigel JH, et al. N Engl J Med. 2020; 383: 1813–1826.
+        </p>
+
+    </footer>
+
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function() {
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if (counter > 4) {
+                counter = 1;
+            }
+        }, 5000);
+    </script>
+</body>
+
+</html>
